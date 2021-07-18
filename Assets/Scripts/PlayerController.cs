@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    //private Rigidbody _rb;
     [SerializeField] private GameObject _gemParticle, _begining, _ending;
     [SerializeField] private TextMeshProUGUI _txtScore, _txtLastScore, _txtHScore, _txtGemAmount;
     [SerializeField] private Material _mTile;
